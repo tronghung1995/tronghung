@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lấy data</title>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <script src="myfunc.js"></script> -->
+<script src="test.js"></script>
+</head>
+
+</body>
+<h1>Lấy data</h1>
+
+<!--<input type="button" value="getdata" onclick="xuly();">
+<hr>
+<p id="kq">Đây là kết quả...</p>-->
+
+
+<script>
+
+// function xuly(){
+// 	var api = 'http://localhost:8000/'
+//
+// 	Lấy data từ API với dữ liệu người dùng
+// 	const xhttp = new XMLHttpRequest();
+// 	xhttp.onload = function() {
+// 		var vi_kq = JSON.parse(this.responseText).total[0];
+// 		document.getElementById("kq").innerHTML = 'Tổng số tàu của tỉnh BRVT là: <b>'+kq;
+// 	}
+// 	xhttp.open("GET", api);
+// 	xhttp.send();
+// }
+
+// fetch('http://localhost:8000')
+fetch('localhost:8000')
+    .then(data => {
+        console.log(data)
+    })
+
+</script>
+</body>
+
+</html>

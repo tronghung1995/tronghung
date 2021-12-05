@@ -1,0 +1,13 @@
+{
+    "project": {
+        "BRVT": {
+            "pg_database": {
+                "host": "localhost",
+                "user": "postgres",
+                "password": "postgres",
+                "port": "5432",
+                "database": "bariavungtau"
+            }
+        }
+    }
+}
